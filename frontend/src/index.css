@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+/* // Deep navy blue (navbar; footer)
+// CTA hover; link accents
+// Bright blue (buttons; highlights)
+// Background blue section
+// Input focus; selection
+// Info circle or success indicators
+// Soft green backgrounds
+// Background or input fill
+// Muted text / labels
+// Body text
+// Cards; text; backgrounds */
+
+@theme {
+  --color-primary: oklch(0.334 0.12 263.49);
+  --color-secondary: oklch(0.413 0.141 258.25);
+  --color-accent: oklch(0.539 0.156 254.14);
+  --color-lightBlue: oklch(0.942 0.025 251.52);
+  --color-highlight: oklch(0.653 0.214 255.68);
+  --color-green: oklch(0.707 0.192 147.92);
+  --color-lightGreen: oklch(0.967 0.038 172.46);
+  --color-softGray: oklch(0.963 0.002 270);
+  --color-gray: oklch(0.627 0.006 270);
+  --color-darkGray: oklch(0.429 0.007 270);
+  --color-white: oklch(1 0 0);
+  --color-black: oklch(0 0 0);
+}
