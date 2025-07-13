@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Signika+Negative:wght@300..700&display=swap");
 @import "tailwindcss";
 
 /* // Deep navy blue (navbar; footer)
@@ -25,4 +26,5 @@
   --color-darkGray: oklch(0.429 0.007 270);
   --color-white: oklch(1 0 0);
   --color-black: oklch(0 0 0);
+  --font-inter: "Inter", sans-serif;
 }
