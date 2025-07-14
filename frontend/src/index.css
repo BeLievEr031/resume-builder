@@ -46,11 +46,10 @@
 
 .carousel-item {
   display: inline-block;
-  min-width: 200px; /* Adjust width as needed */
+  min-width: 200px;
   text-align: center;
   font-size: 1.25rem;
   font-weight: 500;
   padding: 1rem;
-  background-color: #f9f9f9;
   border-radius: 0.5rem;
 }

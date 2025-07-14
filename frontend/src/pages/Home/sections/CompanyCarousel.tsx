@@ -10,11 +10,11 @@ const srcArr = [AdobeSrc, AirbnbSrc, FaceBookSrc, MicrosoftSrc, NetflixSrc, Noti
 function CompanyCarousel() {
     return (
         <div className="relative w-11/12 mx-auto bg-white overflow-hidden font-rubik ">
-            <h1 className="text-center text-4xl font-semibold mt-6 text-neutral-800">Get placed in world/India'a Leading companies</h1>
+            <h1 className="text-center text-2xl md:text-4xl font-semibold mt-6 text-neutral-800">Get placed in world/India'a Leading companies</h1>
             <div className="carousel-track animate-carousel whitespace-nowrap flex items-center">
                 {
                     srcArr.map((item, index) => {
-                        return <div key={index} className="carousel-item w-[100px] flex justify-center items-center mt-2">
+                        return <div key={index} className="carousel-item md:w-[100px] flex justify-center items-center mt-2">
                             <img src={item} alt="" className="w-full" />
                         </div>
                     })
