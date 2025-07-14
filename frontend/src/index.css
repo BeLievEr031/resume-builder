@@ -30,3 +30,27 @@
   --font-inter: "Inter", sans-serif;
   --font-rubik: "Rubik", sans-serif;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-carousel {
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-item {
+  display: inline-block;
+  min-width: 200px; /* Adjust width as needed */
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+}
