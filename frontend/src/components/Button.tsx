@@ -10,8 +10,12 @@ interface IProp {
 
 function Button({ children, classname, variant = "primary", disabled = false }: IProp) {
     return <button
-        className={clsx('cursor-pointer transition-all delay-100 inset-0', {
-            'bg-primary px-4 md:px-10 py-3 rounded shadow-md text-[16px] md:text-[18px] font-semibold text-shadow-md text-neutral-200 hover:bg-secondary hover:text-neutral-100': variant === "primary"
+        className={clsx('cursor-pointer px-4 md:px-10 py-3 rounded shadow-md text-[16px] md:text-[18px] text-shadow-md transition-all delay-100 inset-0', {
+
+            'bg-primary text-neutral-200 hover:bg-secondary hover:text-neutral-100 font-semibold': variant === "primary",
+
+            'bg-[#03dc7a] text-white font-semibold text-shadow-none': variant === "secondary",
+
         }, classname)}
         disabled={disabled}
     >{children}</button>;
