@@ -1,5 +1,5 @@
 import Button from "../../../components/Button"
-import HeroImgSrc from "../../../assets/hero.png"
+import HeroImgSrc from "../../../assets/hero-template.png"
 function HeroSection() {
     return (
         <div className="m-2 flex flex-col-reverse md:grid md:grid-cols-2 gap-2 md:gap-5 md:px-20 font-rubik">
