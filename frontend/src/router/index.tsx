@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"
 import RootLayout from "../layouts/RootLayout"
 import HomePage from "../pages/Home";
+import ResumeTemplate from "../pages/ResumeTemplates";
 
 const router = createBrowserRouter([
     {
@@ -10,7 +11,11 @@ const router = createBrowserRouter([
             {
                 path: "",
                 element: <HomePage />
-            }
+            },
+            {
+                path: "resume-template",
+                element: <ResumeTemplate />
+            },
         ]
     }
 ])
