@@ -1,7 +1,7 @@
 import CompanyCarousel from "./sections/CompanyCarousel"
 import HeroSection from "./sections/HeroSection"
 import StepSection from "./sections/StepSection"
-// import TemplateCategorySection from "./sections/TemplateCategorySection"
+import TemplateCategorySection from "./sections/TemplateCategorySection"
 import TemplateSection from "./sections/TemplateSection"
 
 function Page() {
@@ -11,7 +11,7 @@ function Page() {
             <CompanyCarousel />
             <TemplateSection />
             <StepSection />
-            {/* <TemplateCategorySection /> */}
+            <TemplateCategorySection />
         </div>
     )
 }
