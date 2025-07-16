@@ -8,7 +8,7 @@ interface IProp {
 
 function CategoryCard({ icon, imgSrc, number, title }: IProp) {
     return (
-        <div className="group bg-gray-400/20 rounded-xl cursor-pointer overflow-hidden h-[400px] w-[270px] hover:bg-gray-400/30 transition-all delay-75 relative">
+        <div className="group bg-gray-400/20 rounded-xl cursor-pointer overflow-hidden h-[400px] min-w-[270px] hover:bg-gray-400/30 transition-all delay-75 relative md:mt-8">
             <div className="p-4">
                 <span className="text-5xl">{icon}</span>
                 <h1 className="text-xl font-semibold pt-5">{title}</h1>
